@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0 20px;
+    font-family: sans-serif;
+}
+.navi{
+    float: right;  
+}
+
+.navi > ul >li{
+    display: inline-block; 
+   
+}
+.navi > ul >li > a{
+    text-decoration: none;
+    color: black;
+}
+.navi > ul >li > a:hover{
+    text-decoration: underline;
+}
+.navi > ul > li{
+    padding-left: 20px;
+}
+.material-icons{
+    padding-left: 20px; 
+}
+.logo > img{
+    width: 250px;
+    height: 150px;
+    margin-left: 540px;
+    padding-top: 100px;
+}
+.search-box{
+    margin-left: 400px;
+  
+   
+}
+.search-box >form > button{
+    border-radius: 50px;
+   width: 500px;
+   height: 45px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: none;
+   box-shadow: 2px 2px 2px 2px #ededed;
+   background-color: white;
+   
+}
+input{
+    border: none;
+    width: 300px;
+    padding: 10px 0px;
+    background-color: #fff;
+}
+.buttong{
+margin-left: 530px; 
+}
+.para{
+margin-left: 410px; 
+padding-top: 25px;
+}
+.para > p > a{
+    text-decoration: none;
+}
+p > a:hover{
+    text-decoration: underline;
+}
+.foot{
+    width: 95%;
+}
+.foot > .footl{
+float: left;
+}
+.foot > .footr{
+ float: right;
+}
+.foot > .footl > li{
+ display: inline-block;
+ padding-left: 20px;
+}
+.foot > .footr > li{
+display: inline-block;
+padding-left: 20px;
+}
+.foot > .footl > li > a{
+ text-decoration: none;
+ color: black;  
+}
+.foot > .footr > li > a{
+ text-decoration: none;
+color: black; 
+}
+.foot > .footl > li > a:hover{
+ text-decoration: underline;
+}
+.foot > .footr > li > a:hover{
+text-decoration: underline;
+}
+.footer{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: gray;
+color: black;
+}
